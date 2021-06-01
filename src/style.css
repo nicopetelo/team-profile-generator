@@ -1,0 +1,84 @@
+body {
+  font-family: "Amiri", serif, "Open Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+a:link,
+a:visited {
+  color: #647aca;
+}
+
+h1 {
+  text-shadow: 2px 2px 6px #000;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #263a58;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  color: #f8f9fa;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #efefef;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 300px;
+  width: 18rem;
+}
+
+.card-body {
+  color: #fff;
+  background-color: #277daf;
+}
+
+.details {
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  display: flex;
+  flex-direction: column;
+  font-size: 90%;
+  margin: 10px 5px;
+}
+
+.details div {
+  display: flex;
+  padding: 0.4rem 0.2rem;
+}
+
+.details > div {
+  border-top: 1px solid #efefef;
+}
+
+.detail-icon {
+  width: 32px;
+}
+
+i {
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list-group {
+  margin: 20px 10px;
+  border: 1px solid #cfcfcf;
+}
+
+.list-group-item {
+  padding: 0.75rem;
+}
+
+.list-group-item i {
+  margin-right: 0.5rem;
+}
+
+.role-icon {
+  float: right;
+}
